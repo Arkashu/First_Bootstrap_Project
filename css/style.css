@@ -1,0 +1,131 @@
+.container {
+  max-width: 1160px;
+}
+
+.navbar-nav {
+  width: 100%;
+}
+.navbar-nav .nav-item {
+  padding-right: 20px;
+}
+.navbar-nav .nav-item .nav-link {
+  text-align: center;
+}
+.navbar-nav .nav-item .nav-link:hover {
+  background: #ffc155;
+  color: white;
+}
+
+.request-form {
+  background-color: #709dca;
+  padding: 110px 220px 350px 220px;
+}
+.request-form .icon {
+  position: relative;
+}
+.request-form .icon img {
+  position: absolute;
+  padding: 13px 7px;
+}
+.request-form .icon input {
+  padding-left: 30px;
+}
+
+@media (max-width: 1200px) {
+  .request-form {
+    padding: 110px 50px 300px 50px;
+  }
+}
+@media (max-width: 992px) {
+  .request-form {
+    padding: 110px 0 250px 0;
+  }
+}
+@media (max-width: 768px) {
+  .request-form {
+    padding: 110px 0 200px 0;
+  }
+}
+@media (max-width: 576px) {
+  .request-form {
+    padding: 60px 0 150px 0;
+  }
+}
+.slider {
+  margin-bottom: 80px;
+}
+.slider .carousel {
+  padding: 0 260px;
+  margin-top: -24%;
+}
+
+@media (max-width: 1200px) {
+  .carousel {
+    padding: 0 240px;
+  }
+}
+@media (max-width: 992px) {
+  .carousel {
+    padding: 0 180px;
+  }
+}
+@media (max-width: 768px) {
+  .carousel {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  .carousel {
+    display: none;
+  }
+}
+.services {
+  color: #394b50;
+  margin-bottom: 150px;
+}
+
+p {
+  margin-bottom: 75px;
+}
+
+.about-us {
+  background-color: #ffc155;
+}
+.about-us .bgr-about {
+  background-image: url("../../../../images/bg-about.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about-us .read-more {
+  padding: 145px 265px 150px 80px;
+}
+.about-us .read-more .btn-primary {
+  background-color: #ffc155;
+  border-color: #394b50;
+}
+
+@media (max-width: 1400px) {
+  .about-us .read-more {
+    padding: 125px 235px 130px 70px;
+  }
+}
+@media (max-width: 1200px) {
+  .about-us .read-more {
+    padding: 115px 205px 110px 60px;
+  }
+}
+@media (max-width: 992px) {
+  .about-us .read-more {
+    padding: 95px 160px 90px 50px;
+  }
+}
+@media (max-width: 768px) {
+  .about-us .bgr-about {
+    display: none;
+  }
+  .about-us .read-more {
+    padding: 95px 160px 90px 50px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

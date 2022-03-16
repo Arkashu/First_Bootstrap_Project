@@ -1,0 +1,31 @@
+@media (max-width: 1400px) {
+  .about-us{
+    .read-more{
+      padding: 125px 235px 130px 70px;
+
+    }
+  }
+}@media (max-width: 1200px) {
+  .about-us{
+    .read-more{
+      padding: 115px 205px 110px 60px;
+
+    }
+  }
+}@media (max-width: 992px) {
+  .about-us{
+    .read-more{
+      padding: 95px 160px 90px 50px;
+
+    }
+  }
+}@media (max-width: 768px) {
+  .about-us{
+    .bgr-about{
+      display: none;
+    }
+    .read-more{
+      padding: 95px 160px 90px 50px;
+    }
+  }
+}

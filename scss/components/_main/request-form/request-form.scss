@@ -1,0 +1,12 @@
+.request-form{
+  background-color: $blue-color;
+  padding: 110px 220px 350px 220px;
+  .icon {
+    position: relative;
+  }
+  .icon img {
+    position: absolute;
+    padding: 13px 7px;
+  }
+  .icon input  { padding-left:  30px; }
+  }

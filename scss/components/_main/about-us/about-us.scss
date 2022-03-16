@@ -1,0 +1,15 @@
+.about-us{
+  background-color: $hover-color;
+  .bgr-about{
+    background-image: url("../../../../images/bg-about.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .read-more{
+    padding: 145px 265px 150px 80px;
+    .btn-primary{
+      background-color: $hover-color;
+      border-color: $h2-font-color;
+    }
+  }
+}
