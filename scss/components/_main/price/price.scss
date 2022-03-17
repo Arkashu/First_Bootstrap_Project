@@ -1,0 +1,54 @@
+.price{
+  background-color: #e7edf3;
+  padding: 140px 0 195px 0;
+  color: $parag-color;
+  text-align: center;
+  .head-price{
+    margin-bottom: 80px;
+  }
+  .price-card{
+    border: 1px solid $line-color;
+    transition: .3s;
+    background-color: white;
+    padding: 55px 30px 48px;
+  }
+  .price-card:hover {
+    transform: scale(1.1);
+    background-color: $blue-color;
+    color: white;
+    .price-value{
+      color: white;
+    }
+  }
+  h2{
+    color: $h2-font-color;
+  }
+  .card-button{
+    background-color: $hover-color;
+    color: white;
+  }
+  .price-value{
+  font-size: 55px;
+  color: $hover-color;
+  .dollar{
+    font-size: 35px;
+    transform: translateY(7px);
+  }
+  }
+  .per-month{
+    margin: 0;
+    font-size: 12px;
+    transform: translateY(-156%);
+  }
+  .card-information{
+    font-size: 12px;
+    p{
+      color: $card-information-color;
+      margin: 0;
+      padding: 13px 0;
+      align-items: center;
+      border-top: 1px solid $line-color;
+    }
+  }
+}
+

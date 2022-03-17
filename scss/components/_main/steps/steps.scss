@@ -1,0 +1,46 @@
+.steps{
+  padding: 150px 0;
+  .row{
+    justify-content: center;
+  }
+  .head-steps{
+    padding-bottom: 80px;
+  }
+  .step-item{
+    padding-bottom: 80px;
+    img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      padding-bottom: 80px;
+    }
+    h3{
+      font-size: 20px;
+      padding-bottom: 30px;
+    }
+    p{
+      font-size: 10px;
+      text-align: center;
+    }
+  }
+  .arrow-up{
+    img{
+      margin-top: -120%;
+      transform: translateX(-30%);
+    }
+  }
+  .arrow-down{
+    img{
+      margin-bottom: -233%;
+      transform: translateX(-33%);
+    }
+  }
+  .get-start-button{
+    padding: 15px 28px;
+    display: flex;
+    margin: 0 auto;
+    background-color: $hover-color;
+    color: white;
+  }
+  }
+
