@@ -1,0 +1,33 @@
+.happy-clients{
+  background-color: $hover-color;
+  padding: 140px 0 150px;
+  .head-happy-clients{
+    color: white;
+    padding-bottom: 30px;
+  }
+  .rewiew-style{
+    padding: 15px 15px 0;
+  .rewiews {
+    background-color: white;
+    padding: 45px 45px 50px 30px;
+
+    img {
+      width: 100%;
+    }
+
+    .text-rewiew {
+      color: #848484;
+      font-size: 13px;
+      line-height: 20px;
+    }
+
+    .name-rewiew {
+      color: #f89b64;
+    }
+
+    .rewiew-job {
+      color: #a7b4b9;
+    }
+  }
+  }
+}

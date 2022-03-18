@@ -16,7 +16,6 @@
   .about-us{
     .read-more{
       padding: 95px 160px 90px 50px;
-
     }
   }
 }@media (max-width: 768px) {
@@ -25,7 +24,16 @@
       display: none;
     }
     .read-more{
-      padding: 95px 60px 90px 50px;
+      padding: 30px;
+    }
+  }
+}@media (max-width: 576px) {
+  .about-us{
+    .bgr-about{
+      display: none;
+    }
+    .read-more{
+      padding: 10px;
     }
   }
 }

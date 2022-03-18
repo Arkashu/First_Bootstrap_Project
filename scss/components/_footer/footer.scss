@@ -1,0 +1,40 @@
+footer{
+  .head-footer{
+    color: $h2-font-color;
+    ul{
+      list-style: none;
+/*      li:not(:last-child){
+        padding-right: 30px;}*/
+        a{
+          padding: 10px;
+          transition: .3s;
+          color: $h2-font-color;
+          text-decoration: none;
+        }
+      a:hover{
+        color: white;
+        background-color: $hover-color;
+      }
+      }
+    .call{
+      font-size: 20px;
+      padding-bottom: 20px;
+    }
+    .networks{
+      text-align: center;
+      padding-bottom: 50px;
+    a{
+      text-decoration: none;
+    }a:not(:last-child){
+      padding-right: 16px;
+      text-decoration: none;
+    }
+    }
+    }
+  .foot-footer{
+    text-align: center;
+    color: white;
+    background-color: $blue-color;
+    padding: 18px 0 6px;
+  }
+}

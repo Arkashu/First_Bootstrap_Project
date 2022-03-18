@@ -1,0 +1,63 @@
+.newsletter{
+  padding: 150px 0 50px;
+  .container{
+    padding-bottom: 60px;
+    border-bottom: 1px solid $line-color;
+  }
+  .head-newsletter{
+    color: $h2-font-color;
+  }
+  .newsletter-form{
+    padding: 40px 80px 40px;
+      .icon {
+        position: relative;
+      }
+      .icon img {
+        position: absolute;
+        padding: 13px 7px;
+      }
+      .icon input  { padding-left:  30px; }
+    }
+  .newsletter-bg{
+    background-image: url("../images/map.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 0 222px;
+    .map-address{
+      color: white;
+      padding: 65px;
+      margin: 0 auto;
+      width: 280px;
+      height: 280px;
+      border-radius: 50%;
+      background-color: $h2-font-color;
+      h3{
+        font-size: 20px;
+      }
+      p{
+        color: #aeb7ba;
+        font-weight: lighter;
+        text-align: center;
+       margin-bottom: 0;
+        padding-bottom: 1px;
+        font-size: 15px;
+        a{
+          color: $hover-color;
+          text-decoration: none;
+        }
+      }
+    }
+    .triangle-top{
+      margin: -1px auto;
+      width: 0;
+      height: 0;
+      border-left: 13px solid transparent;
+      border-right: 13px solid transparent;
+      border-top: 13px solid $h2-font-color;
+      padding-bottom: 10px;
+    }
+    .logo{
+      text-align: center;
+    }
+  }
+  }

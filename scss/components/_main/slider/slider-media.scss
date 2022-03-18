@@ -8,11 +8,18 @@
     padding: 0 180px;
   }
 }@media (max-width: 768px) {
-  .carousel{
-    display: none;
+  .slider {
+    margin-bottom: 10px;
+
+    .carousel {
+      display: none;
+    }
   }
 }@media (max-width: 576px) {
+  .slider{
+    margin-bottom: 10px;
   .carousel{
  display: none;
   }
+}
 }
